@@ -7,7 +7,7 @@ def key_for_min_value(nameHash)
   value_array = nameHash.collect do |name, value|
     value
   end
-  name_array = nameHashash.collect do |name, value|
+  name_array = nameHash.collect do |name, value|
     name
   end
   i = 0
