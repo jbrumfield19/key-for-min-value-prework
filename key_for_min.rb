@@ -4,10 +4,10 @@ def key_for_min_value(nameHash)
     if nameHash == {}
     return
   end
-  value_array = name_hash.collect do |name, value|
+  value_array = nameHash.collect do |name, value|
     value
   end
-  name_array = name_hash.collect do |name, value|
+  name_array = nameHashash.collect do |name, value|
     name
   end
   i = 0
